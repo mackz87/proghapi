@@ -20,7 +20,7 @@ body
     width: 32px;
     float: right;
     display: block;
-    background: url("hamburger.png");
+    background: url("hamburger.png")
     background-size: contain;
 
 }
