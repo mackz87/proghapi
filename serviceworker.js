@@ -4,24 +4,16 @@ var CACHED_URLS = [
     // Our HTML
     BASE_PATH + 'index.html',
 
-  
     BASE_PATH + 'img/android-icon-36x36.png',
     BASE_PATH + 'img/android-icon-48x48.png',
     BASE_PATH + 'img/android-icon-72x72.png',
     BASE_PATH + 'img/android-icon-96x96.png',
     BASE_PATH + 'img/android-icon-144x144.png',
     BASE_PATH + 'img/android-icon-192x192.png',
-    BASE_PATH + 'img/favicon-32x32.png',
-
 
     BASE_PATH + 'img/favicon.ico',
 
-
-
-
-    // Manifest
     BASE_PATH + 'manifest.json',
-  // CSS and fonts
 
     BASE_PATH + 'style.css'
 ];
