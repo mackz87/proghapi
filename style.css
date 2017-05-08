@@ -20,7 +20,11 @@ body
     width: 32px;
     float: right;
     display: block;
+<<<<<<< HEAD:Style.css
     background: url("hamburger.png")
+=======
+    background: url("hamburger.png");
+>>>>>>> 85925471f000c4902487d336e9e9c59ddbebed07:style.css
     background-size: contain;
 
 }
