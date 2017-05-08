@@ -1,0 +1,393 @@
+
+header, section, footer, aside, nav, article, figure, figcaption
+{
+    display: block;
+}
+
+body
+{
+    color: #666666;
+    background-image:url(Images/BackStripes.png);
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+
+}
+
+.hamburger {
+    height: 32px;
+    width: 32px;
+    float: right;
+    display: block;
+    background: url("Hburger.png");
+    background-size: contain;
+
+}
+
+#cb:checked ~ .main-navigation
+        {
+    	display:none;
+        }
+
+#cb:not(:checked) ~ .main-navigation
+        {
+    	display:block;
+        }
+
+#cb {
+    display: none;
+
+}
+
+.over
+{
+    width:940px;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #ffffff;
+    background-color: #ff99ff;
+}
+header
+{
+ border-color: #ffffff;
+}
+#logo
+{
+    padding-left: 33%
+}
+h1{
+    text-indent: -9999px;
+    width: 940px;
+    height: 0px;
+    margin: 0px;
+}
+nav, footer
+{
+    clear:both;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 50px;
+}
+nav ul
+{
+
+    margin: 0px;
+    padding: 10px 0px 5px 15px;
+}
+nav li
+{
+    background-color: #9400d3;
+    display: inline;
+    margin-right: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+
+}
+nav li a
+{
+    color: #ffffff;
+}
+nav li a:hover, nav li a.current
+{
+    color: #000000;
+    background-color: #ff99ff;
+
+}
+section.info
+{
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+
+}
+section.info p
+{
+    padding-left: 1em;
+}
+section.education.info
+{
+    float: left;
+    width: 80%;
+    border-right: 1px solid #eeeeee;
+
+}
+article
+{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup
+{
+    margin-top: 40px;
+}
+figure
+{
+    float: left;
+    width: 220px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: none;
+}
+figcaption
+{
+    font-size: 90%;
+    text-align: left;
+}
+#Hide
+{
+    display: none;
+}
+aside
+{
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+aside section a
+{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+aside section a:hover
+{
+    color: #9400d3;
+    background: #efefef;
+}
+a
+{
+    color: #de6581;
+    text-decoration: none;
+}
+h1, h2, h3
+{
+    font-weight: normal;
+}
+h2
+{
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+h3
+{
+    margin: 0px 0px 10px 0px;
+    color: #9400d3;
+}
+aside h2
+{
+
+    padding: 30px 0px 10px 0px;
+    color: #9400d3;
+}
+footer
+{
+    text-align:center;
+    font-size: 80%;
+    padding: 15px 25px 0px 20px;
+}
+footer nav ul li
+{
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.pimg
+{
+    width:auto;
+    height: auto;
+    border: none;
+
+}
+.edupara
+{
+    margin-left: 200px
+}
+education-info
+{
+
+}
+.School
+{
+    padding-left: 50px
+}
+#Contact
+{
+    margin: 50px;
+}
+#Contact fieldset
+{
+    background: white;
+    border: 2px solid white;
+    border-radius: .5em;
+
+}
+#Contact form
+{
+    margin: 0 auto;
+    width: 500px;
+}
+#Contact label
+{
+
+    display: inline-block;
+    width: 160px;
+    text-align: right;
+}
+#Contact input textarea {
+    font: 1em sans-serif;
+    width: 200px;
+    box-sizing: border-box
+}
+@media only screen and (max-width:480px)
+{
+    .over
+    {
+        max-width: 400px;
+    }
+    header img
+    {
+        width: 25%;
+        height: auto;
+    }
+    section.info
+    {
+        width:399px;
+    }
+    figure
+    {
+        width: 80px;
+        height: auto;
+    }
+    figure img
+    {
+        width: 100%;
+        height:auto;
+    }
+    nav
+    {
+        height: 75px;
+        width: auto;
+    }
+    nav li
+    {
+        font-size: 1.1em;
+        margin: 10px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:600px)
+{
+    .over
+    {
+        max-width: 400px;
+    }
+    header img
+    {
+        width: 25%;
+        height: auto;
+    }
+    section.info
+    {
+        width: 399px;
+    }
+
+    figure
+    {
+        width:120px;
+        height: auto;
+    }
+    figure img
+    {
+        width: 100%;
+        height:auto;
+    }
+    nav
+    {
+        height: 75px;
+        width: auto;
+    }
+    nav li
+    {
+        font-size: 1.1em;
+        margin: 10px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 750px)
+{
+
+    .over
+    {
+            max-width: 600px;
+    }
+   header img
+    {
+            width: 25%;
+            height: auto;
+    }
+    section.info
+    {
+            width: 599px;
+    }
+    nav li
+    {
+            background-color: #9400d3;
+            display: inline;
+            margin-right: 1em;
+            margin-left: 1em;
+            font-size: 1.25em;
+    }
+    figure
+    {
+        width:160px;
+        height: auto;
+    }
+    figure img
+    {
+        width: 100%;
+        height:auto;
+    }
+}
+
+
+@media only screen and (min-width:750px) and (max-width: 950px)
+{
+    .over
+    {
+            max-width: 800px;
+    }
+    section.info
+    {
+            width: 799px;
+    }
+    nav li
+    {
+            background-color: #9400d3;
+            display: inline;
+            margin-right: 2em;
+            margin-left: 2em;
+            font-size: 1.25em;
+    }
+    header img
+    {
+            width: 30%;
+            height: auto;
+    }
+    figure
+    {
+        width: 200px;
+        height:auto;
+    }
+    figure img
+    {
+        width: 100%;
+        height:auto;
+    }
+}
